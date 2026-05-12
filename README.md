@@ -39,4 +39,10 @@ JavaScript core concepts covering variables, scoping, hoisting, and functions.
 
 | File | Description |
 |------|-------------|
-| `10_functions` | Basic function declaration and invocation (`greet`, `reuse`)
+| `10_functions` | Basic function declaration and invocation (`greet`, `reuse`) |
+
+### Assignments
+
+| File | Description |
+|------|-------------|
+| `18_assignment.js` | Classic `var` vs `let` in loop with `setTimeout` — demonstrates scope binding differences |
