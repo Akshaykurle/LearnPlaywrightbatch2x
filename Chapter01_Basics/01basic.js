@@ -3,4 +3,8 @@ console.log(a);
 
 console.log("hello the testing academy");
 
-console.log(Process.platform);
+console.log("Hi Akshay, how are you");
+
+console.log(process.platform);
+console.log(process.arch);
+console.log(process.version);
