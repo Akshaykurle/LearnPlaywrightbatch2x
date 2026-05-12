@@ -1,0 +1,11 @@
+function greet() {
+    console.log("Hi, how are you doing, we need this to repeat  task!");
+}
+
+greet();
+
+function reuse() {
+    console.log("repeat yourself");
+}
+
+reuse();
