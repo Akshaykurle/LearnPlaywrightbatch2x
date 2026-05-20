@@ -27,6 +27,8 @@ JavaScript identifier rules, naming conventions, and comments.
 | `07_identifiers_part02.js` | Naming conventions — camelCase, PascalCase, snake_case, SCREAMING_SNAKE_CASE |
 | `08_comment.js` | Single-line (`//`) and multi-line (`/* */`) comments |
 | `js_identifiers_rules.js` | Comprehensive guide to identifier rules, Unicode support, and naming conventions |
+| `vs code Keyboard shortcut mac.md` | VS Code keyboard shortcuts reference for macOS |
+| `vs code keyboard shortcut windows.md` | VS Code keyboard shortcuts reference for Windows |
 
 ## Chapter04_JavaScriptConcept
 
@@ -70,7 +72,7 @@ JavaScript core concepts covering variables, scoping, hoisting, and functions.
 | `assignment.js` | Classic `var` vs `let` in loop with `setTimeout` — scope binding differences; also demonstrates `const` reassignment error |
 | `20_let_const.js` | `let` vs `const` — reassignment behavior comparison |
 
-## Chapter05_Literals
+## chapter05_literals
 
 JavaScript literal types — values, strings, numbers, and template literals.
 
@@ -155,3 +157,4 @@ User input handling in Node.js using `readline` and `prompt-sync`.
 | `68_userinput.js` | User input via `readline` module — prompts for a number and checks even/odd |
 | `69_Node_readline.js` | Commented-out readline example for even/odd check |
 | `70_Prompt_Sync.js` | Commented-out prompt-sync (`prompt-sync` npm package) example |
+| `Assignment.js` | Real-world if-else assignments — HTTP status codes, test pass/fail verdict, bug severity classifier, build health reporter, login lockout logic |
