@@ -148,6 +148,28 @@ Conditional branching with `switch` statements.
 | `66_IQ3.js` | Duplicate case labels — first matching case is used |
 | `67_IQ4.js` | Strict comparison (`===`) behavior in switch — type matters |
 
+## ## Test_24th_may
+
+JavaScript coding challenges covering identifier validation, test result processing, config merging, and more.
+
+| File | Description |
+|------|-------------|
+| `Challenge_1.js` | Normalizes a label — trims, lowercases, replaces non-alphanumeric with `-`, prefixes `js-basic-` |
+| `Challenge_2.js` | Validates JS identifiers — checks empty strings, reserved words, and valid pattern |
+| `Challenge_3.js` | Score classification using if-else ladder (EXCELLENT / GOOD / NEEDS_PRACTICE / REVISIT) |
+| `challenge_4.js` | Keyword-to-meaning lookup using an object map (node → runtime, v8 → engine, npm → package-manager) |
+| `challenge_5.js` | Filters and deduplicates topics via alias mapping |
+| `challenge_6.js` | Counts passing results by filtering strings containing "pass" |
+| `challenge_7.js` | Summarizes results into total/passed/failed/skipped counts |
+| `challenge_8.js` | Merges two config objects with spread operator and sets default retries |
+| `challenge_9.js` | Builds a run label from suite name, environment, and build number |
+| `challenge_10.js` | Finds the first critical-severity bug from an array |
+| `challenge_11.js` | Flattens and summarizes a 2D test result matrix with failed case tracking |
+| `Challenge_12.js` | Creates a sorted list of unique, normalized tags |
+| `Challenge_13.js` | Readiness gate — returns "READY" only if all three boolean gates are true |
+| `Challenge_14.js` | Builds a numbered checklist from non-empty trimmed items |
+| `challenge_15.js` | Calculates weighted score as `(passed * 2) - failed` |
+
 ## Chapter09_UserInput
 
 User input handling in Node.js using `readline` and `prompt-sync`.
