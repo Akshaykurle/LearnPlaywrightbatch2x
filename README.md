@@ -180,3 +180,79 @@ User input handling in Node.js using `readline` and `prompt-sync`.
 | `69_Node_readline.js` | Commented-out readline example for even/odd check |
 | `70_Prompt_Sync.js` | Commented-out prompt-sync (`prompt-sync` npm package) example |
 | `Assignment.js` | Real-world if-else assignments — HTTP status codes, test pass/fail verdict, bug severity classifier, build health reporter, login lockout logic |
+
+## Chapter10_loops
+
+Looping constructs — `for`, `while`, `do-while`, and control flow with `continue`.
+
+| File | Description |
+|------|-------------|
+| `71_for_loops.js` | Introduces the need for loops — repetitive `console.log` for numbers 1–10 |
+| `72_For_loop.js` | Basic `for` loop — prints 0 to 5 |
+| `73_For_loop2.js` | `for` loop with variable naming (`_1`) — prints 0 to 10 |
+| `74_IQ.js` | `for` loop with commented-out infinite loop and conditional gift logic |
+| `75_for_of_on_each.js` | Placeholder note linking `for...of` to arrays; `while` loop with attempt counter |
+| `76_while.js` | `while` loop — retry attempts with counter and "Modi" repetition loop |
+| `77_Do_While.js` | `do-while` loop — executes once even when condition is false |
+| `78_Do_while.js` | `do-while` retry loop — runs at least once, up to 3 retries |
+| `79_IQ.js` | `while` loop — descending countdown from 5 to 1 |
+| `80_IQ.js` | `do-while` — decrementing loop that runs once since condition false |
+| `81_IQ.js` | `for` loop with `continue` — skips iteration when `i === 1` |
+| `82_IQ.js` | `do-while` vs `while` — demonstrates do-while always runs at least once |
+
+## Chapter11_Arrays
+
+Array creation, access, mutation, iteration, transformation, searching, and utility methods.
+
+| File | Description |
+|------|-------------|
+| `83_Arrays.js` | Array literals — mixed types, index access, `undefined` for out-of-bounds |
+| `84_Arrays.js` | Array constructors — `new Array()`, `Array.of()`, `Array.from()` |
+| `85_Access_Arrays` | Index and `at()` access, modifying elements by index |
+| `86_Arrays_Addings.js` | `push`, `pop`, `unshift`, `shift` — adding/removing from ends |
+| `87_Adding_remove.js` | `splice` — insert, replace, and remove elements at any position |
+| `88_Real_example.js` | Browser list manipulation — `pop`, `shift`, loop with condition |
+| `89_searching.js` | `indexOf`, `lastIndexOf`, `includes`, `find`, `findIndex`, `findLast`, `findLastIndex` |
+| `90_Iterate.js` | Iteration — `for` loop, `for...of`, `forEach`, `for...in`, `entries()` |
+| `91_transform_array.js` | `map`, `filter`, `reduce`, `flat` — transforming and aggregating arrays |
+| `92_array.js` | `sort` — natural (lexicographic) vs numeric sorting with comparator |
+| `93_Array_slicing.js` | `slice` (non-mutating) vs `splice` (mutating) — extracting and removing |
+| `94_Concat_Array.js` | `concat`, spread operator (`...`), and `join` for strings |
+| `95_array_checking.js` | `Array.isArray`, `every`, `some` — checking array contents and type |
+
+## Chapter12_Functions
+
+Function types, expressions, arrow functions, IIFE, default/rest parameters, closures, higher-order functions, and pure functions.
+
+| File | Description |
+|------|-------------|
+| `96_Function.js` | Basic function definition and invocation (`greet`) |
+| `97_Type1_Fn_Basic_Functions.js` | Type 1 — no param, no return (`greet`) |
+| `98_Type2_Fn_With_Param_No_Return.js` | Type 2 — with param, no return (`greetByName`, `begger`) |
+| `99_Type3_Fn_without_Param_Return_Type.js` | Type 3 — no param, with return (`goToRelativeHouse`) |
+| `100_Type4_Fn_With_Param_With_Return.js` | Type 4 — with param and return (`sumOfTwoNumner`) |
+| `101_Template_literal.js` | Function returning a template literal string |
+| `102_Fn_Expression.js` | Function expressions vs declarations |
+| `103_Arrow_Fn.js` | Arrow functions — concise syntax, implicit return |
+| `104_Arrow_Fn_REAL.js` | Real-world arrow function — HTTP status code validation |
+| `105_IIFE.js` | Immediately Invoked Function Expressions (IIFE) |
+| `106_Default_Param_Fn..js` | Default parameters — retry config with defaults |
+| `107_IQ.js` | Function with multiple params returning formatted string |
+| `108_Rest_Param_Fn.js` | Rest parameters — capturing variable arguments |
+| `109_IQ.js` | Function hoisting — calling `sayHi` before `const` declaration (TDZ error) |
+| `110_Spead_IQ.js` | Spread operator with functions — passing arrays as arguments |
+| `111_Scope._Fn.js` | Global vs local scope in functions |
+| `112_IQ.js` | Nested function scope — inner accessing outer, but not vice versa |
+| `113_Closure.js` | Basic closure — inner function captures outer `message` variable |
+| `114_Closure.js` | Closure with counter — `increment`, `decrement`, `get` methods |
+| `115_API_REAL_Closure.js` | Real-world closure — retry tracker with attempt limiting |
+| `116_Higher_Order_Fn.js` | Higher-order function — `runWithLoggin` takes a test function as argument |
+| `117_Pure_Function.js` | Pure vs impure functions — `calculatePassRate` vs `isPassing` with external dependency |
+
+## Task_22nd_may
+
+Coding tasks from 22nd May covering conditional logic and FizzBuzz.
+
+| File | Description |
+|------|-------------|
+| `Task_22nd_may.js` | Triangle classifier (equilateral/isosceles/scalene) and FizzBuzz (1–100) |
