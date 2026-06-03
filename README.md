@@ -256,3 +256,18 @@ Coding tasks from 22nd May covering conditional logic and FizzBuzz.
 | File | Description |
 |------|-------------|
 | `Task_22nd_may.js` | Triangle classifier (equilateral/isosceles/scalene) and FizzBuzz (1–100) |
+
+## Chapter13_String
+
+String methods — creation, properties, search, extraction, transformation, and a cheat sheet reference.
+
+| File | Description |
+|------|-------------|
+| `118_Strings.js` | String quotes (single/double/backtick), template literals, multiline strings, `String()` conversion |
+| `119_String_Properties.js` | `length`, bracket/index access, `at()`, `charAt()`, `charCodeAt()` |
+| `120_Search_check_str.js` | `includes`, `startsWith`, `endsWith`, `indexOf`, `lastIndexOf`, `search()` with regex |
+| `121_Substring.js` | `slice()` vs `substring()` — extracting parts of a string |
+| `122_transfer_str.js` | `toUpperCase`, `toLowerCase`, `trim`, `replace`, `replaceAll`, `split`, `join`, `concat` |
+| `123_sc.js` | String conversion — `toString()`, `Number()`, `parseInt()`, `parseFloat()` |
+| `assgnment_3rdjune.js` | Palindrome checker — reverses a string and compares to original |
+| `javascript_stringcheat_sheet.md` | Comprehensive cheat sheet — search, extract, transform, trim, replace, and misc methods |
