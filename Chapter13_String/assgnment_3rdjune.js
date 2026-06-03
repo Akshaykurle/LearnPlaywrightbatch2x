@@ -1,14 +1,15 @@
 let str = "racecar";
+let reversed = "";
 
-let reversed = str.split("").reverse().join("");
+for (let i = str.length - 1; i >= 0; i--) {
+    reversed = reversed + str[i];
+}
 
 console.log("Original String:", str);
 console.log("Reversed String:", reversed);
 
 if (str === reversed) {
-    console.log("Palindrom");
+    console.log(true);
 } else {
-    console.log("Not a Palindrom");
+    console.log(false);
 }
-
-
