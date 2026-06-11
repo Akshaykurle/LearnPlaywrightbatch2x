@@ -271,3 +271,55 @@ String methods — creation, properties, search, extraction, transformation, and
 | `123_sc.js` | String conversion — `toString()`, `Number()`, `parseInt()`, `parseFloat()` |
 | `assgnment_3rdjune.js` | Palindrome checker — reverses a string and compares to original |
 | `javascript_stringcheat_sheet.md` | Comprehensive cheat sheet — search, extract, transform, trim, replace, and misc methods |
+
+## Chapter14_Objects
+
+Objects — creation, properties, destructuring, spread, getter/setter methods, and real-world usage.
+
+| File | Description |
+|------|-------------|
+| `124_Objects.js` | Object literal basics — key-value pairs, accessing properties |
+| `125_Object_2.js` | Object with mixed value types — string, number, boolean, array, nested object |
+| `126_Objects_Creation.js` | Object creation patterns — literal, `new Object()`, constructor function, `Object.create()` |
+| `127_Objects_REAL.js` | Real-world user profile object — nested properties and methods |
+| `128_Primitive_Ref.js` | Primitive vs reference types — value copy vs reference sharing |
+| `129_Ob_Examples.js` | Browser profile object — browser name, version, engines, viewport settings |
+| `130_IQ.js` | Reference mutation — modifying a shared object reference affects all references |
+| `131_Object_Fn.js` | Methods inside objects — `this` keyword and function values as properties |
+| `132_Obj_Decon.js` | Object destructuring — extracting properties into variables |
+| `133_Spead.js` | Spread operator with objects — merging and cloning |
+| `134_Objects_GET_SET_Methods.js` | Getter and setter methods — `get`/`set` syntax with computed property |
+| `135_IQ.js` | Dynamic property access — bracket notation with variable keys |
+| `136_Obj_REAL.js` | Real-world test config object — environment, browser, retries, timeouts |
+| `137_Let_const_obj.js` | `const` with objects — reference immutability, properties can still change |
+
+## Chapter15_2D_Array
+
+Two-dimensional arrays — creation, iteration, transformation, and real-world tabular data handling.
+
+| File | Description |
+|------|-------------|
+| `138_2D_Array.js` | 2D array literal — matrix creation and element access |
+| `139_2d.js` | Nested loop iteration over a 2D array — printing rows and columns |
+| `140_REAL.js` | Real-world test result matrix — iterating and printing with labels |
+| `141_2d_Array_Fn.js` | 2D array functions — adding rows, transposing, mapping over elements |
+| `142_IQ_Right_Pattern_Py.js` | Right-angle triangle pattern using nested loops |
+| `testdata.csv` | CSV test data file used with 2D array processing |
+
+## Chapter16_Callback
+
+Callback functions — synchronous vs asynchronous callbacks, callback hell, and parameter passing patterns.
+
+| File | Description |
+|------|-------------|
+| `143_Callback.js` | Basic callback — passing a function as an argument |
+| `144_CB.js` | Callback with parameters — greeting function with callback |
+| `145_CB_Fn.js` | Named callback functions — reusing defined functions as callbacks |
+| `146_PW_CB.js` | Playwright-style callback — page action with callback |
+| `147_JS_CB.js` | JavaScript array method callback — `forEach` with inline callback |
+| `148_Sync_CB.js` | Synchronous callback — executed immediately in the call stack |
+| `149_Async_CB.js` | Asynchronous callback — `setTimeout` delaying execution |
+| `150_CB_Hell.js` | Callback hell — nested callbacks with `setTimeout` pyramid |
+| `151_CB_Hell_20_Steps.js` | Deeply nested callback hell — 20-step sequential timeout chain |
+| `152_CB_Parameter.js` | Passing parameters to callbacks — encapsulating data with closure |
+| `153_CB_Return.js` | Returning a value from a callback — synchronous callback with return |
