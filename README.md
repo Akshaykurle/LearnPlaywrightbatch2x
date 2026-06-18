@@ -323,3 +323,32 @@ Callback functions — synchronous vs asynchronous callbacks, callback hell, and
 | `151_CB_Hell_20_Steps.js` | Deeply nested callback hell — 20-step sequential timeout chain |
 | `152_CB_Parameter.js` | Passing parameters to callbacks — encapsulating data with closure |
 | `153_CB_Return.js` | Returning a value from a callback — synchronous callback with return |
+
+## Chapter17_Promise
+
+Promise creation, chaining, error handling, and static methods for real-world async patterns.
+
+| File | Description |
+|------|-------------|
+| `154_Promise.js` | Basic Promise — resolves with `"Pizza is delivered..."` on success or rejects on failure |
+| `155_Promise_REAL_API.js` | Mock API Promise — resolves with `status: 200` and logs via `.then()` |
+| `156_Promise_REAL_API_PART2.js` | Rejected Promise — simulates `"500 Error"` handled via `.catch()` |
+| `157_finally.js` | Promise with `.finally()` — cleanup runs regardless of resolve or reject |
+| `158_Call_Py_Problem.js` | Promise chain — sequential browser login flow (open, navigate, enter credentials, click) |
+| `159_Promise_ALL.js` | `Promise.allSettled()` — collects results from mixed resolve/reject promises |
+| `160_Promise_IQ.js` | Collection of Promise patterns — resolve/reject, chaining, `Promise.all()`, `Promise.allSettled()` for API checks |
+
+## Chapter18_Async&Await
+
+Async/await syntax for cleaner asynchronous code — sequential, parallel, error handling, and Playwright integration.
+
+| File | Description |
+|------|-------------|
+| `161_Async.js` | `async` function with `await` on rejected promise — caught with try/catch and finally |
+| `162_Aysnc_P2.js` | `async` function awaiting a resolved token value (`"abc123"`) |
+| `163_PyODom.js` | Browser E2E flow with `async/await` — open browser, login, enter credentials (with commented `.then()` version) |
+| `164_Async_Ex.js` | Basic `async` function returning `"Pass"` and a Playwright test for `playwright.dev` title |
+| `165_AA_Parallel.js` | Parallel execution — three API calls (`Auth`, `User Creation`, `Support`) via `Promise.allSettled` |
+| `165_AA_Seq.js` | Sequential execution — three API calls (`Login`, `Dashboard`, `Report`) with timing measurement |
+| `166_IQ.js` | Sequential await — three resolved promises (`Opened browser`, `Clicked login`, `Verified dashboard`) |
+| `167_ACLogin.js` | Playwright test — logs in as `standard_user`, asserts login button hidden, and checks page title |
