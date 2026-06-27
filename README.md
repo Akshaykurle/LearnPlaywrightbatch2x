@@ -352,3 +352,114 @@ Async/await syntax for cleaner asynchronous code — sequential, parallel, error
 | `165_AA_Seq.js` | Sequential execution — three API calls (`Login`, `Dashboard`, `Report`) with timing measurement |
 | `166_IQ.js` | Sequential await — three resolved promises (`Opened browser`, `Clicked login`, `Verified dashboard`) |
 | `167_ACLogin.js` | Playwright test — logs in as `standard_user`, asserts login button hidden, and checks page title |
+
+## Chapter19_PlaywrightBasic
+
+Basic Playwright test scripts for the TTACart demo application.
+
+| File | Description |
+|------|-------------|
+| `tta_cart.spec.ts` | Login attempt with invalid credentials (`abc`/`sbsbsbs`) |
+| `tta_cart_pass.spec.ts` | Login with valid credentials and assertions on the primary header |
+| `tta_cart_login_purchasecomplete.spec.ts` | Complete E2E flow — login, add item to cart, and complete purchase |
+
+## Chapter20_Export_Import
+
+JavaScript ES6 module system — `import`/`export` patterns with named and default exports.
+
+| File | Description |
+|------|-------------|
+| `01_EXPORT_IMPORT/168_EXPORT_IMPORT.js` | Importing named exports (`BASE_URL`, `formatTestName`) from `testutils.js` |
+| `01_EXPORT_IMPORT/169_Utils.js` | Importing with aliases from multiple utility modules |
+| `01_EXPORT_IMPORT/170_Logger.js` | Default import of a logger function |
+| `01_EXPORT_IMPORT/utils.js` | Utility module with named exports |
+| `01_EXPORT_IMPORT/testutils.js` | Test utility module with named exports |
+| `01_EXPORT_IMPORT/logger.js` | Logger module with default export |
+
+## Chapter21_Classes_and_Objects
+
+Object-oriented programming with ES6 classes — constructors, methods, private fields, and static members.
+
+| File | Description |
+|------|-------------|
+| `171_Class_Object.js` | Basic `Person` class with attributes and behaviours |
+| `172_Class_Object2.js` | `Person` class with constructor that logs on instantiation |
+| `173_Car.js` | `Car` class with parameterized constructor and `drive()` method |
+| `174_REAL_Browser.js` | `TestCase` class — name, status, priority with display method |
+| `175_IQ.js` | `Browser` class — launch, start, and browser management |
+| `176_Private_Public.js` | Private fields (`#apiKey`) vs public fields |
+| `177_Statis.js` | `Student` class with static fields and methods |
+| `178_Statis.js` | `Person` class with static `nationality` field |
+
+## Chapter22_Encapsulation
+
+Data hiding using JavaScript private fields (`#`) with controlled access via getters.
+
+| File | Description |
+|------|-------------|
+| `179_Ecap.js` | `BankAccount` — private `#balance` with `deposit`/`getBalance` methods |
+| `180_REAK_EXAMPLE.js` | `Person` — hiding private children (`#child1`, `#child2`) with getter access |
+| `181_Ecap_Car.js` | `Car` — private `#engine` field exposed via `getEngine()` |
+| `182_ECap_Bank.js` | `ICICI` bank account — private `#balance` with deposit, withdraw, and getBalance |
+
+## Chapter23_Inheritance
+
+Class inheritance — single, multilevel, hierarchical, and real-world Page Object Model patterns.
+
+| File | Description |
+|------|-------------|
+| `183_Single_Inheritance.js` | `BasePage` → `LoginPage` — single inheritance with `extends` |
+| `184_SI_Example.js` | `Animal` → `Dog`/`Cat` — inheritance with method reuse |
+| `185_Single_Inheritance_Con.js` | `BaseTest` → `APITest` — constructor/method inheritance |
+| `186_IQ.js` | `BaseTest` → `UITest` — overriding `setup()` with `super` call |
+| `187_IQ2.js` | `TestCase` → `UnitTest`/`IntegrationTest` — polymorphic `execute()` |
+| `188_REAL_PageObject_Model.js` | Page Object Model — `BasePage` → `LoginPage` with `verify()` method |
+| `189_Multiple_Inheritance.js` | Multiple inheritance simulation via mixins (F1 → F2 conflict) |
+| `190_Multiple_Level_Inheritance.js` | Multilevel — `BasePage` → `AuthPage` → `AdminPage` with chained `super` |
+| `191_Hierarchial_Inheritance.js` | Hierarchical — `Father` → `Son1`, `Son2` |
+
+## Chapter24_Polymorphism
+
+Polymorphism via method overriding.
+
+| File | Description |
+|------|-------------|
+| `192_Method_Overriding.js` | `BaseTest` → `APIPage`/`UIPage` — overriding `setup()` for different behaviour |
+
+## Chapter25_OOP_Interview_Questions
+
+Object-oriented programming exercises covering common interview patterns.
+
+| File | Description |
+|------|-------------|
+| `EX1.js` | `Bug` class — title/severity with display method |
+| `EX2.js` | `Environment` — constructor with default params and `getURL()` |
+| `EX3.js` | `User` — demonstrates `this` referring to the current object |
+| `EX4.js` | `Counter` — method chaining with `return this` |
+
+## Chapter26_Typescript
+
+TypeScript fundamentals — primitive types, function annotations, arrays, and type inference.
+
+| File | Description |
+|------|-------------|
+| `193_TS.js` | Plain JS before TypeScript — loosely typed `add` function |
+| `194_TS_HelloWorld.js` | JS version of typed hello world |
+| `194_TS_HelloWorld.ts` | First TypeScript — typed `testName` and `add_ts` with `: number` |
+| `195_TS_Part1.ts` | Function with `void` return type annotation |
+| `196_TS_Part2.ts` | Primitive types — `string`, `number`, `boolean`, `null`, `undefined` |
+| `197_TS_Part2.ts` | `unknown` type and type narrowing with `typeof` |
+| `198_Part3.ts` | Function annotations with `void` and `never` return types |
+| `199_IQ.ts` | Typed functions — `buildEndpoint`, `isSuccessCode`, `logTestStep` |
+| `200_IQ.ts` | Typed arrays — `number[]` with `filter` for failed HTTP codes |
+
+## Chapter27_TypeScript_Interface
+
+TypeScript interfaces — defining object shapes, optional properties, and readonly modifiers.
+
+| File | Description |
+|------|-------------|
+| `201_IF.ts` | `TestCase` interface — typed object with id, name, status, duration |
+| `202_IF_Part2.ts` | `APIResponse` interface — optional `headers` and `responseTime` |
+| `203_IF_READONLY.ts` | `APIReponse` interface — `readonly statusCode` preventing mutation |
+| `204_IF_READOnly.ts` | `Point` and `Data` interfaces — readonly properties and `readonly number[]` |
