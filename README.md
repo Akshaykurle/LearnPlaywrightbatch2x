@@ -463,3 +463,64 @@ TypeScript interfaces — defining object shapes, optional properties, and reado
 | `202_IF_Part2.ts` | `APIResponse` interface — optional `headers` and `responseTime` |
 | `203_IF_READONLY.ts` | `APIReponse` interface — `readonly statusCode` preventing mutation |
 | `204_IF_READOnly.ts` | `Point` and `Data` interfaces — readonly properties and `readonly number[]` |
+| `205_Interface.ts` | `Calculator` interface — method signatures in interface |
+| `206_Hooks.ts` | `TestHook` interface — callable interface for beforeEach/afterEach hooks |
+| `207_Bug REPORT.ts` | `BugReport` interface — bug tracking with id, title, severity, steps |
+| `208_TestConfig.ts` | `TestConfig` interface — browser config with optional timeout and retries |
+| `209_REAL_EXAMPLE.ts` | Interface inheritance — `LoginPage` extends `BasePage` |
+| `210_Class_Interface.ts` | `Executable` interface — implemented by `TestCase` class |
+
+## Chapter28_ENUM
+
+TypeScript enums — named constants for test status, severity levels, browsers, and HTTP methods.
+
+| File | Description |
+|------|-------------|
+| `211_ENUM.ts` | `TestStatus` enum — Pass, Fail, Skip, Pending, Blocked |
+| `212_Enum_Fn.ts` | `SeverityLevels` enum — LOW to BLOCKING with severity check function |
+| `213_ENUM.ts` | `Browser` enum — Chrome, Firefox, Safari, Edge with `launchBrowser` function |
+| `214_API_.ts` | `HTTPMethod` enum — GET, POST, PUT, DELETE with `sendRequest` function |
+
+## Chapter29_TypeScriptGeneric
+
+TypeScript generics — reusable functions, generic classes, and typed API response wrappers.
+
+| File | Description |
+|------|-------------|
+| `215_Generic.ts` | Generic function `getFirstResult<T>` — returns first element from typed array |
+| `216_Generic_Class.ts` | `TestDataStorage<T>` — generic class with add, getFirst, getAll methods |
+| `217_Generic_API_RESPONSE.ts` | `wrapResponse<T>` — wraps any data type with a status code |
+
+## Chapter30_PRIVATE_PUBLIC_PROTECTED
+
+TypeScript access modifiers — `public`, `private`, `protected`, `readonly`, and abstract classes.
+
+| File | Description |
+|------|-------------|
+| `218_PPP.ts` | `APIClient` — public `baseURL`, private `apiKey`, protected `timeout` |
+| `219_PageObjectModel.ts` | Page Object Model with protected `navigate` and private selectors |
+| `220_READONLY.ts` | `PlaywrightConfig` — readonly properties for baseURL, timeout, retries |
+| `221_Abstract_Class.ts` | `BaseTest` — abstract class with abstract `setup`, `execute`, `teardown` |
+
+## Chapter31_Type_Overide_Decortors
+
+TypeScript advanced features — type assertions, type aliases, method overriding, and decorators.
+
+| File | Description |
+|------|-------------|
+| `222_Type_As.ts` | Type assertion — `unknown` cast to interface with `as` |
+| `223_Type_Alias_As.ts` | Type alias assertion — `unknown` response cast to `UserResponse` |
+| `224_Override.ts` | Method override — `LoginTest` overrides `nihit_ready` and `nihit_done` |
+| `225_IQ.ts` | `override` keyword — `Pramod` overrides `home()` from `Father` |
+| `226_Decorator.ts` | `@Log` decorator — logs method name and arguments |
+| `227_Decortors_2.ts` | `@logged` decorator — wraps method with logging |
+| `228_Multiple_Decor.ts` | Multiple decorators — stacked `@beforeSomething` and `@BeforeSomeSomeThing` |
+
+## Chapter32_Playwright_Fundamental
+
+Playwright fundamentals — test configuration, spec files, and project setup.
+
+| File | Description |
+|------|-------------|
+| `tests/example.spec.ts` | Basic Playwright test spec |
+| `playwright.config.ts` | Playwright configuration — browsers, reporters, timeouts |
